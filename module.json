@@ -1,0 +1,114 @@
+{
+  "name": "coc7-module-fr-toc",
+  "title": "Compendiums pour CoC7 en français Toc (SPANISH)",
+  "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français. SPANISH</p>",
+  "author": "Plein de poulpes",
+  "authors": [],
+  "url": "https://github.com/tristobal/coc7-module-fr-toc",
+  "flags": {},
+  "version": "1.0.9",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9",
+  "scripts": [
+    "./coc7-module-fr-toc.js"
+  ],
+  "esmodules": [],
+  "styles": [
+    "./coc7-module-fr-toc.css"
+  ],
+  "languages": [],
+  "packs": [
+    {
+      "label": "FR-compendiums-actors",
+      "entity": "Actor",
+      "name": "fr-compendiums-actor",
+      "path": "packs/fr-compendiums-actor.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Actor",
+      "type": "Actor",
+      "private": false
+    },
+    {
+      "label": "FR-compendiums-items",
+      "entity": "Item",
+      "name": "fr-compendiums-item",
+      "path": "packs/fr-compendiums-item.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Item",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "label": "FR-compendiums-items-crea",
+      "entity": "Item",
+      "name": "fr-compendiums-item-crea",
+      "path": "packs/fr-compendiums-item-crea.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Item",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "label": "FR-compendiums-journalentries",
+      "entity": "JournalEntry",
+      "name": "fr-compendiums-journalentry",
+      "path": "packs/fr-compendiums-journalentry.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "JournalEntry",
+      "type": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "FR-compendiums-rolltables",
+      "entity": "RollTable",
+      "name": "fr-compendiums-rolltable",
+      "path": "packs/fr-compendiums-rolltable.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "RollTable",
+      "type": "RollTable",
+      "private": false
+    },
+    {
+      "label": "FR-compendiums-scenes",
+      "entity": "Scene",
+      "name": "fr-compendiums-scene",
+      "path": "packs/fr-compendiums-scene.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Scene",
+      "type": "Scene",
+      "private": false
+    },
+    {
+      "label": "FR-compendiums-sono",
+      "entity": "Playlist",
+      "name": "fr-compendiums-sono",
+      "path": "packs/fr-compendiums-sono.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Playlist",
+      "type": "Playlist",
+      "private": false
+    }
+  ],
+  "system": [
+    "CoC7"
+  ],
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/tristobal/coc7-module-fr-toc/master/module.json",
+  "download": "https://github.com/tristobal/coc7-module-fr-toc/archive/refs/heads/master.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
